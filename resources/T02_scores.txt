@@ -1,0 +1,7 @@
+Aadam 5
+Nathan 5
+Bob 87
+Alice 59
+Meenal 500
+salman 400
+Andy 60

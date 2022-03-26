@@ -1,0 +1,62 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch MathQuiz",
+            "request": "launch",
+            "mainClass": "Task03_2.MathQuiz",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch MathQuiz1",
+            "request": "launch",
+            "mainClass": "Task04_1.MathQuiz1"
+        },
+        {
+            "type": "java",
+            "name": "Launch scoreRecorder",
+            "request": "launch",
+            "mainClass": "Task02_3.scoreRecorder"
+        },
+        {
+            "type": "java",
+            "name": "Launch MathQuiz",
+            "request": "launch",
+            "mainClass": "Task03_2.MathQuiz",
+            "projectName": "PDC_Tutorials_2847b7c2"
+        },
+        {
+            "type": "java",
+            "name": "Launch PLQuiz",
+            "request": "launch",
+            "mainClass": "Task03_1.PLQuiz",
+            "projectName": "PDC_Tutorials_2847b7c2"
+        },
+        {
+            "type": "java",
+            "name": "Launch scoreRecorder",
+            "request": "launch",
+            "mainClass": "Task02_3.scoreRecorder",
+            "projectName": "PDC_Tutorials_2847b7c2"
+        },
+        {
+            "type": "java",
+            "name": "Launch textCopy",
+            "request": "launch",
+            "mainClass": "Task02_2.textCopy",
+            "projectName": "PDC_Tutorials_2847b7c2"
+        },
+        {
+            "type": "java",
+            "name": "Launch DebugProgram",
+            "request": "launch",
+            "mainClass": "Task02_1.DebugProgram",
+            "projectName": "PDC_Tutorials_83d726be"
+        }
+    ]
+}
