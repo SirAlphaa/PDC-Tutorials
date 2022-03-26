@@ -10,7 +10,7 @@ public class BetterMathQuiz {
         int score = 0;
         int rounds = 0;
         Scanner uInput = new Scanner(System.in);
-        MathQuiz quiz = new MathQuiz();
+        BetterMathQuiz quiz = new BetterMathQuiz();
         boolean Looper = true;
 
         while (Looper) {
@@ -118,7 +118,7 @@ public class BetterMathQuiz {
             
             case 4:
                 operation = " / ";
-                while (number2 == 0.0) {
+                while (number2 == 0.0 || number2 > 10) {
                     number2 = this.randomNumber(100);
                 }
                 while (number1 < number2) {
