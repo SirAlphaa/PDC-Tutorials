@@ -9,6 +9,13 @@
             "name": "Launch BetterMathQuiz",
             "request": "launch",
             "mainClass": "Task04_1.BetterMathQuiz",
+            "projectName": "PDC-Tutorials_ff92d187"
+        },
+        {
+            "type": "java",
+            "name": "Launch BetterMathQuiz",
+            "request": "launch",
+            "mainClass": "Task04_1.BetterMathQuiz",
             "projectName": "PDC-Tutorials_4c81b167"
         },
         {
