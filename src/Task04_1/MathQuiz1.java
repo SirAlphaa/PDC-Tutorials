@@ -10,12 +10,10 @@ import java.util.Scanner;
 public class MathQuiz1 {
 
     public static void main(String[] args) {
-
         int score = 0;
         int rounds = 3;
         Scanner sc = new Scanner(System.in);
         MathQuiz1 qm = new MathQuiz1(); // Test
-
         while (rounds > 0) {
             double cAnswer = 0d, uAnswer = 0d;
             cAnswer = qm.generateQuestion();
@@ -39,6 +37,7 @@ public class MathQuiz1 {
             rounds--;
         }
         System.out.println("You got: " + score);
+        sc.close();
     }
 
     public double generateQuestion() {
