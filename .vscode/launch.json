@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MainMenu",
+            "request": "launch",
+            "mainClass": "Task04_1.MainMenu",
+            "projectName": "PDC-Tutorials_ff92d187"
+        },
+        {
+            "type": "java",
             "name": "Launch BetterMathQuiz",
             "request": "launch",
             "mainClass": "Task04_1.BetterMathQuiz",

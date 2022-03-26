@@ -5,24 +5,20 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
-import java.util.Scanner;
 
-public class UserReader {
+public class FileInterface {
 
-    public void getInfo() {
-        
-    Scanner input = new Scanner(System.in);
-    HashMap<String, Integer> records = readRecords();
+    // public void getInfo() {
+    // HashMap<String, Integer> records = readRecords();
+    // }
 
-    }
-
-    private static HashMap<String, Integer> readRecords() {
+    public static HashMap<String, Integer> readRecords() {
 
         HashMap<String, Integer> list = new HashMap<>();
         BufferedReader br = null;
         String line = null;
         try {
-            br = new BufferedReader(new FileReader("./resourses/T02_scores.txt"));
+            br = new BufferedReader(new FileReader("./resources/T02_scores.txt"));
             while ((line = br.readLine()) != null) {
                 String str[] = line.split(" ");
                 list.put(str[0], Integer.parseInt(str[1]));
