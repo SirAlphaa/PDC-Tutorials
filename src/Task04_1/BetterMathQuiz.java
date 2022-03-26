@@ -6,9 +6,9 @@ import java.util.Scanner;
 
 public class BetterMathQuiz {
     
-    public static void main(String[] args) {
-        int score = 0;
-        int rounds = 0;
+    public int MathGame(int inputScore) {
+        int score = inputScore;
+        int rounds = 10;
         Scanner uInput = new Scanner(System.in);
         BetterMathQuiz quiz = new BetterMathQuiz();
         boolean Looper = true;
@@ -59,6 +59,7 @@ public class BetterMathQuiz {
     clearScreen();
     System.out.println("\nGame Complete");
     System.out.println("\nYour final Score is | " + score + "\n\n\n\n\n");
+    return score;
     }
 
     public int checkAnswer(Double realAns, Double userAns) {
