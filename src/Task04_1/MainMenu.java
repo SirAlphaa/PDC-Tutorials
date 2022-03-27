@@ -3,7 +3,7 @@ package Task04_1;
 import java.util.HashMap;
 import java.util.Scanner;
 
-import Task03_2.MathQuiz;
+// import Task03_2.MathQuiz;
 
 public class MainMenu {
     
