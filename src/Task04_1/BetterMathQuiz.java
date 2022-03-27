@@ -6,7 +6,8 @@ import java.util.Scanner;
 
 public class BetterMathQuiz {
     
-    public int MathGame(int inputScore) {
+    public static int MathGame(int inputScore) {
+        clearScreen();
         int score = inputScore;
         int rounds = 10;
         Scanner uInput = new Scanner(System.in);

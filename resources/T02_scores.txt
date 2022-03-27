@@ -1,8 +1,10 @@
 Aadam 5
 Nathan 5
+Tufi 0
 Bob 87
 Alice 59
-Salman 400
+Salman 440
 Meenal 500
+David 30
 Anya 50
 Andy 60
