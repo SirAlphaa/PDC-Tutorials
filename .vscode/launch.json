@@ -6,6 +6,7 @@
     "configurations": [
         {
             "type": "java",
+
             "name": "Launch Main2",
             "request": "launch",
             "mainClass": "Task05_2.Main2",
@@ -17,6 +18,19 @@
             "request": "launch",
             "mainClass": "Task05_2.Star",
             "projectName": "PDC-Tutorials_ff92d187"
+        },{
+            "type": "java",
+            "name": "Launch MainMenu",
+            "request": "launch",
+            "mainClass": "Task04_1.MainMenu",
+            "projectName": "PDC-Tutorials_4c81b167"
+        } ,
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Task05_1.Main",
+            "projectName": "PDC-Tutorials_4c81b167"
         },
         {
             "type": "java",
