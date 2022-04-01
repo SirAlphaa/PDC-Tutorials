@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch HelloWorld",
+            "request": "launch",
+            "mainClass": "Task01_1.HelloWorld",
+            "projectName": "PDC-Tutorials_4c81b167"
+        },
+        {
+            "type": "java",
+            "name": "Launch RunStar",
+            "request": "launch",
+            "mainClass": "Task05_2.RunStar",
+            "projectName": "PDC-Tutorials_4c81b167"
+        },
+        {
+            "type": "java",
             "name": "Launch RunStar",
             "request": "launch",
             "mainClass": "Task05_2.RunStar",
