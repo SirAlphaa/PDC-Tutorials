@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch RunStar",
+            "request": "launch",
+            "mainClass": "Task05_2.RunStar",
+            "projectName": "PDC-Tutorials_ff92d187"
+        },
+        {
+            "type": "java",
+            "name": "Launch Star",
+            "request": "launch",
+            "mainClass": "Task05_2.Star",
+            "projectName": "PDC-Tutorials_ff92d187"
+        },
+        {
+            "type": "java",
             "name": "Launch MainMenu",
             "request": "launch",
             "mainClass": "Task04_1.MainMenu",
