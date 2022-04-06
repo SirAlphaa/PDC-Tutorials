@@ -4,7 +4,7 @@ Tufi 0
 Bob 87
 Alice 59
 Kayla -30
-Salman 400
+Salman 410
 Meenal 500
 David 30
 Anya 50
