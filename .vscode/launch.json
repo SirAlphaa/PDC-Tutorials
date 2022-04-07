@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch mainGUI",
+            "request": "launch",
+            "mainClass": "Task06_1.mainGUI",
+            "projectName": "PDC-Tutorials_4c81b167"
+        },
+        {
+            "type": "java",
             "name": "Launch HelloWorld",
             "request": "launch",
             "mainClass": "Task01_1.HelloWorld",
