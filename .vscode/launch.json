@@ -9,6 +9,13 @@
             "name": "Launch mainGUI",
             "request": "launch",
             "mainClass": "Task06_2.mainGUI",
+            "projectName": "PDC-Tutorials_4c81b167"
+        },
+        {
+            "type": "java",
+            "name": "Launch mainGUI",
+            "request": "launch",
+            "mainClass": "Task06_2.mainGUI",
             "projectName": "PDC-Tutorials_ff92d187"
         },
         {

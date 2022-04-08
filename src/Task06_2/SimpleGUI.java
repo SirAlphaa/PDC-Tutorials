@@ -121,6 +121,8 @@ public class SimpleGUI implements ActionListener {
             String font = fontInput.getSelectedItem().toString();
             String size = sizeInput.getSelectedItem().toString();
             outputText.setFont(new Font(font, Font.BOLD, Integer.parseInt(size)));
+            Dimension outputTextSize = outputText.getPreferredSize();
+            outputText.setBounds(0, 0, width, outputTextSize.height);
             
         }
     }
